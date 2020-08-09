@@ -1,0 +1,14 @@
+body{
+	display: inline-block;
+	width: 100%;
+	background-color: #333333;
+}
+small{
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	color: ivory;
+}
