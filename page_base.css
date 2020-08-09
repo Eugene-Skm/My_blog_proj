@@ -55,6 +55,13 @@ body{
 	background: #aaaaaa;
 	cursor: pointer;
 }
+#main_menu li img{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 50%;
+	margin: 5px;
+	vertical-align: middle;
+}
 
 #main_menu li a{
 	position: relative;
