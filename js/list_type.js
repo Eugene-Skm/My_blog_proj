@@ -13,17 +13,17 @@ function change_check() {
                for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "100%";
 					article[i].style.height = "300px";
-					article[i].style.margin = "5px";
 					articlethumb[i].style.height="150px";
+					//articlethumb[i].style.width="90%";
                 }
             }else if (type[i].value == "COLUMN") {
 				articles.style.gridTemplateColumns = "100%";
 
 				for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "25% 75%";
-					article[i].style.margin = "0px";
 					article[i].style.height = "120px";
 					articlethumb[i].style.height="100%";
+					//articlethumb[i].style.width="100%";
                 }
 
 			}
