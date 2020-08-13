@@ -68,7 +68,7 @@ main{
 	align-items: center;
 	background: #ffffff;
 	cursor: pointer;
-
+	border-radius: 5px;
 }
 #articles_list a{
 	position: relative;
