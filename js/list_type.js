@@ -16,7 +16,13 @@ function change_check() {
 					articlethumb[i].style.height="150px";
 					//articlethumb[i].style.width="90%";
                 }
-            }else if (type[i].value == "COLUMN") {
+            }else if (type[i].value == "BGCOLUMN") {
+				articles.style.gridTemplateColumns = "100%";
+				for (var i = 1; i < articles.length; i++) {
+					article[i].style.gridTemplateColumns = "100%";
+					articlethumb[i].style.height="250px";
+				}
+			}else if (type[i].value == "COLUMN") {
 				articles.style.gridTemplateColumns = "100%";
 
 				for (var i = 0; i < article.length; i++) {
@@ -24,6 +30,46 @@ function change_check() {
 					article[i].style.height = "120px";
 					articlethumb[i].style.height="100%";
 					//articlethumb[i].style.width="100%";
+                }
+
+			}
+        }
+    }
+}
+function change_check_w() {
+	var type = document.getElementsByName("list_type_radio");
+	var works = document.getElementById("works_list");
+	var work = document.getElementsByClassName("article");
+	var workthumb = document.getElementsByClassName("article_thumb_p");
+    for (var i = 0; i < type.length; i++) {
+        if (type[i].checked) {
+            if (type[i].value == "GRID") {
+                
+				
+				works.style.gridTemplateColumns = "50% 50%";
+				
+               for (var i = 1; i < work.length; i++) {
+                    work[i].style.gridTemplateColumns = "100%";
+					work[i].style.height = "auto";
+					work[i].style.minheight = "300px";
+					workthumb[i].style.height="150px";
+					//workthumb[i].style.width="90%";
+                }
+            }else if (type[i].value == "BGCOLUMN") {
+				works.style.gridTemplateColumns = "100%";
+				for (var i = 1; i < work.length; i++) {
+					work[i].style.gridTemplateColumns = "100%";
+					workthumb[i].style.height="250px";
+				}
+			}else if (type[i].value == "COLUMN") {
+				works.style.gridTemplateColumns = "100%";
+
+				for (var i = 1; i < work.length; i++) {
+                    work[i].style.gridTemplateColumns = "35% 65%";
+					work[i].style.height = "auto";
+					work[i].style.minheight = "120px";
+					workthumb[i].style.height="100%";
+					//workthumb[i].style.width="100%";
                 }
 
 			}
