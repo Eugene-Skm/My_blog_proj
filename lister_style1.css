@@ -83,7 +83,7 @@ main{
 	height: 300px;
 	grid-template-columns: 50% 50%;
 }
-#articles_list a, #works_list a{
+#articles_list a, #works_list a,#undergoing_work a{
 	position: relative;
 	display: block;
 	width: 100%;
@@ -134,7 +134,8 @@ main{
 	border-radius: 2px;
 	border: solid 1px #b4694e;
 }
-#works_list .article_posted_date::after{
+#works_list .article_posted_date::after,
+#undergoing_work .article_posted_date::after{
 	content: '~';
 }
 .article_posted_date{
