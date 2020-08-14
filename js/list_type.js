@@ -12,14 +12,16 @@ function change_check() {
 				
                for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "100%";
-					article[i].style.height = "300px";
+					article[i].style.height = "auto";
 					articlethumb[i].style.height="150px";
 					//articlethumb[i].style.width="90%";
                 }
             }else if (type[i].value == "BGCOLUMN") {
 				articles.style.gridTemplateColumns = "100%";
-				for (var i = 1; i < articles.length; i++) {
+				for (var i = 0; i < article.length; i++) {
 					article[i].style.gridTemplateColumns = "100%";
+					
+					article[i].style.height = "auto";
 					articlethumb[i].style.height="250px";
 				}
 			}else if (type[i].value == "COLUMN") {
