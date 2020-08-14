@@ -36,7 +36,9 @@ main{
 #list_type label:last-of-type{
 	border-radius: 0px 5px 5px 0px;
 }
-#column_list:checked + #label_column_list,#grid_list:checked + #label_grid_list{
+#column_list:checked + #label_column_list,
+#bg_column_list:checked + #label_bg_column_list,
+#grid_list:checked + #label_grid_list{
 	background: linear-gradient(#c5c1c1 0%, #faf8f9 100%);
 }
 
