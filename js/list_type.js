@@ -1,3 +1,16 @@
+function bol(pflg){
+	var lt = localStorage.getItem("ListType");
+	document.getElementById(lt).checked=true;
+	switch (pflg){
+		case 1:
+			change_check();
+			break;
+		case 2:
+			change_check_w();
+			break;
+	}
+}
+
 function change_check() {
 	var type = document.getElementsByName("list_type_radio");
 	var articles = document.getElementById("articles_list");
@@ -5,6 +18,8 @@ function change_check() {
 	var articlethumb = document.getElementsByClassName("article_thumb_p");
     for (var i = 0; i < type.length; i++) {
         if (type[i].checked) {
+			console.log(type[i].id)
+			localStorage.setItem('ListType', type[i].id);
             if (type[i].value == "GRID") {
                 
 				
@@ -43,6 +58,8 @@ function change_check_w() {
 	var workthumb = document.getElementsByClassName("article_thumb_p");
     for (var i = 0; i < type.length; i++) {
         if (type[i].checked) {
+			console.log(type[i].id)
+			localStorage.setItem('ListType', type[i].id);
             if (type[i].value == "GRID") {
                 
 				
@@ -73,6 +90,7 @@ function change_check_w() {
                 }
 
 			}
+			
         }
     }
 }
