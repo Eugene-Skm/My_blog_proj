@@ -1,11 +1,14 @@
 function bol(pflg){
-	var lt = localStorage.getItem("ListType");
-	document.getElementById(lt).checked=true;
+	
 	switch (pflg){
 		case 1:
+			var lt = localStorage.getItem("ListType_d");
+			document.getElementById(lt).checked=true;
 			change_check();
 			break;
 		case 2:
+			var lt = localStorage.getItem("ListType_w");
+			document.getElementById(lt).checked=true;
 			change_check_w();
 			break;
 	}
@@ -19,7 +22,7 @@ function change_check() {
     for (var i = 0; i < type.length; i++) {
         if (type[i].checked) {
 			console.log(type[i].id)
-			localStorage.setItem('ListType', type[i].id);
+			localStorage.setItem('ListType_d', type[i].id);
             if (type[i].value == "GRID") {
                 
 				
@@ -27,22 +30,24 @@ function change_check() {
 				
                for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "100%";
-					article[i].style.height = "300px";
+					article[i].style.height = "auto";
 					articlethumb[i].style.height="150px";
 					//articlethumb[i].style.width="90%";
                 }
             }else if (type[i].value == "BGCOLUMN") {
-				works.style.gridTemplateColumns = "100%";
-				for (var i = 1; i < work.length; i++) {
-					work[i].style.gridTemplateColumns = "100%";
-					workthumb[i].style.height="250px";
+				articles.style.gridTemplateColumns = "100%";
+				for (var i = 0; i < article.length; i++) {
+					article[i].style.gridTemplateColumns = "100%";
+					
+					article[i].style.height = "auto";
+					articlethumb[i].style.height="250px";
 				}
 			}else if (type[i].value == "COLUMN") {
 				articles.style.gridTemplateColumns = "100%";
 
 				for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "25% 75%";
-					article[i].style.height = "120px";
+					article[i].style.height = "auto";
 					articlethumb[i].style.height="100%";
 					//articlethumb[i].style.width="100%";
                 }
@@ -59,7 +64,7 @@ function change_check_w() {
     for (var i = 0; i < type.length; i++) {
         if (type[i].checked) {
 			console.log(type[i].id)
-			localStorage.setItem('ListType', type[i].id);
+			localStorage.setItem('ListType_w', type[i].id);
             if (type[i].value == "GRID") {
                 
 				
