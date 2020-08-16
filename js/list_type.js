@@ -1,11 +1,14 @@
 function bol(pflg){
-	var lt = localStorage.getItem("ListType");
-	document.getElementById(lt).checked=true;
+	
 	switch (pflg){
 		case 1:
+			var lt = localStorage.getItem("ListType_d");
+			document.getElementById(lt).checked=true;
 			change_check();
 			break;
 		case 2:
+			var lt = localStorage.getItem("ListType_w");
+			document.getElementById(lt).checked=true;
 			change_check_w();
 			break;
 	}
@@ -19,7 +22,7 @@ function change_check() {
     for (var i = 0; i < type.length; i++) {
         if (type[i].checked) {
 			console.log(type[i].id)
-			localStorage.setItem('ListType', type[i].id);
+			localStorage.setItem('ListType_d', type[i].id);
             if (type[i].value == "GRID") {
                 
 				
@@ -61,7 +64,7 @@ function change_check_w() {
     for (var i = 0; i < type.length; i++) {
         if (type[i].checked) {
 			console.log(type[i].id)
-			localStorage.setItem('ListType', type[i].id);
+			localStorage.setItem('ListType_w', type[i].id);
             if (type[i].value == "GRID") {
                 
 				
