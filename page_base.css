@@ -12,46 +12,52 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: #e9e4e4;
+    background: #ffffff;
 	margin: 0;
 	color: #333333;
 }
 #page_wrapper {
-    width: 1000px;
-    max-width: 100%;
+    display: inline-block;
+    width: 100%;
     height: auto;
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background: #eeeeee;
-    box-shadow: #999999 0 2px 2px;
+    background: #ffffff;
 }
 #top_image {
     position: relative;
     display: block;
     box-sizing: border-box;
     width: 100%;
-    height: 50px;
+    height: 100px;
 	background: #ffffff;
-	margin: 0;
+    margin: 0;
+    background: #f8f8f8;
 }
 header{
-	display: block;
+    display: inline-block;
+    width: 100%;
 	line-height: 0; /*謎余白解決用*/
 	position: sticky;
 	top: 0px;
-	z-index: 2;
+    z-index: 2;
+    background: #f8f8f8;
 }
 #main_menu{
-	margin: 0;
+    display: block;
+    margin-top: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #main_menu ul {
     display: inline-flex;
     width: 100%;
     padding: 0;
-	margin: 0;
-    background: #ffffff;
-    box-shadow: #bbbbbb 0px 4px 4px -2px ;
+    margin: 0;
+    
 }
 #main_menu li {
     display: inline-block;
@@ -59,7 +65,6 @@ header{
     width: 250px;
     max-width: 25%;
     height: 50px;
-    border: solid 1px #cccccc;
     border-top: 0;
     list-style: none;
     text-align: center;
@@ -79,7 +84,7 @@ header{
 #main_menu li img {
     display: inline-block;
     box-sizing: border-box;
-    height: 50%;
+    height: 20px;
     margin: 5px;
     vertical-align: middle;
 }
@@ -91,7 +96,7 @@ header{
     height: 100%;
     text-decoration: none;
     line-height: 50px;
-    font-size: 1.2em;
+    font-size: 16px;
     font-weight: bold;
 }
 a:active,
@@ -101,9 +106,12 @@ a:visited {
     color: #333333;
 }
 #breadcrumbs{
- display: inline-block;
+ display: block;
  width: 100%;
+ max-width: 1000px;
  height: auto;
+ margin-right: auto;
+ margin-left: auto;
 }
 #breadcrumbs ul {
 	display: inline-block;
@@ -135,7 +143,8 @@ a:visited {
     height: auto;
     min-height: 100%;
     box-sizing: border-box;
-    
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px 10px;
 }
 @media(max-width:900px) {
@@ -155,8 +164,6 @@ main {
 	margin-bottom: 10px;
 	background: #ffffff;
     margin: 4px;
-    border: solid 1px #cccccc50;
-    box-shadow: #bbbbbb 0px 1px 1px;
 }
 aside {
 	position: sticky;
@@ -188,7 +195,7 @@ label.aside_label {
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
-    background: #67aad1;
+    background: #f89538a2;
 
 }
 aside img {
