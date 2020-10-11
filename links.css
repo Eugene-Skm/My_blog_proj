@@ -72,21 +72,17 @@ aside{
 .link_inform div{
     border-bottom: #cccccc 1px solid;
 }
-main > label{
-	display: block;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 20px;
-}
+
 #note{
 	display: block;
 	box-sizing: border-box;
-	width: 100%;
+	width: 80%;
 	height: 200px;
 	margin: 0;
-	border: inset 2px;
+	border: solid 1px #999999;
 	overflow-y: auto;
 	line-height: 1;
-	padding: 2px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
