@@ -33,18 +33,19 @@ function change_check() {
 					article[i].style.height = "auto";
 					articlethumb[i].style.height="150px";
 					articlethumb[i].style.display="inline";
+					articlethumb[i].style.width="100%";
 					//articlethumb[i].style.width="90%";
                 }
             }else if (type[i].value == "BGCOLUMN") {
 				articles.style.gridTemplateColumns = "100%";
 				for (var i = 0; i < article.length; i++) {
-					article[i].style.gridTemplateColumns = "100%";
+					article[i].style.gridTemplateColumns = "80%";
 					
-					articlethumb[i].style.display="inlene";
 					article[i].style.height = "auto";
 					articlethumb[i].style.height="250px";
-					
-					articlethumb[i].style.display="inline";
+					articlethumb[i].style.width="80%";
+					articlethumb[i].style.display="block";
+					articlethumb[i].style.margin="auto";
 				}
 			}else if (type[i].value == "COLUMN") {
 				articles.style.gridTemplateColumns = "100%";
