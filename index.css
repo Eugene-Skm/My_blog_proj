@@ -12,6 +12,7 @@ aside{
 	display: none;
 }
 main{
+	width: 1200px;
 	padding-left: 5%;
 	padding-right: 5%;
 }
