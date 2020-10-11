@@ -1,3 +1,13 @@
+#main_wrapper {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:80%;
+}
+aside{
+    display: none;
+}
+
 
 .links_label{
     display: inline-block;
