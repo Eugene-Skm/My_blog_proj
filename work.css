@@ -215,3 +215,6 @@ article{
 	}
 	
 }
+#main_menu li:nth-child(3){
+	border-bottom: 3px solid #444444;
+}
