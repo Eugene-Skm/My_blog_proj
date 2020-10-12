@@ -20,10 +20,21 @@ select{
 #pday{
   width: 200px;
 }
-#subbutton{
+.subbutton{
   display: inline-block;
   width: 200px;
   height: auto;
   margin: 15px;
+  margin-bottom:100px;
   font-size: 20px;
+}
+
+#adtag{
+  padding: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+#adtag input{
+  width: 300px;
 }
