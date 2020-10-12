@@ -31,7 +31,7 @@ function change_check() {
                for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "100%";
 					article[i].style.height = "auto";
-					articlethumb[i].style.height="150px";
+					articlethumb[i].style.height="200px";
 					articlethumb[i].style.display="inline";
 					articlethumb[i].style.width="100%";
 					//articlethumb[i].style.width="90%";
@@ -43,7 +43,7 @@ function change_check() {
 					
 					article[i].style.height = "auto";
 					articlethumb[i].style.height="250px";
-					articlethumb[i].style.width="80%";
+					articlethumb[i].style.width="90%";
 					articlethumb[i].style.display="block";
 					articlethumb[i].style.margin="auto";
 				}
@@ -80,14 +80,19 @@ function change_check_w() {
                     work[i].style.gridTemplateColumns = "100%";
 					work[i].style.height = "auto";
 					work[i].style.minheight = "300px";
-					workthumb[i].style.height="150px";
+					workthumb[i].style.width="100%";
+					workthumb[i].style.height="200px";
+					workthumb[i].style.display="block";
 					//workthumb[i].style.width="90%";
                 }
             }else if (type[i].value == "BGCOLUMN") {
 				works.style.gridTemplateColumns = "100%";
 				for (var i = 1; i < work.length; i++) {
-					work[i].style.gridTemplateColumns = "100%";
+					work[i].style.gridTemplateColumns = "90%";
 					workthumb[i].style.height="250px";
+					workthumb[i].style.width="80%";
+					workthumb[i].style.display="block";
+					workthumb[i].style.margin="auto";
 				}
 			}else if (type[i].value == "COLUMN") {
 				works.style.gridTemplateColumns = "100%";
@@ -96,7 +101,9 @@ function change_check_w() {
                     work[i].style.gridTemplateColumns = "35% 65%";
 					work[i].style.height = "auto";
 					work[i].style.minheight = "120px";
+					workthumb[i].style.width="100%";
 					workthumb[i].style.height="100%";
+					workthumb[i].style.display="block";
 					//workthumb[i].style.width="100%";
                 }
 
