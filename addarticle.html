@@ -49,31 +49,39 @@
             </div>
             <div id="main_wrapper">
                 <main>
-					<label for="">いろいろ追加ページ</label>
 					<form>
-						<label for="title">記事ジャンル追加</label><br>
-						<label for="title">ジャンルid</label>
-						<input type="text" name="janruid">
-						<label for="title">ジャンル名</label>
-                        <input type="text" name="janruname">
-                        <input type="submit" id="subbutton"name="submit">
-					</form>
-					<form>
-						<label for="title">ツール追加</label><br>
-						<label for="title">ツールid</label>
-						<input type="text" name="toolid">
-						<label for="title">ツール名</label>
-                        <input type="text" name="toolname">
-                        <input type="submit" id="subbutton" name="submit2">
-					</form>
-					<form>
-						<label for="title">言語追加</label><br>
-						<label for="title">言語id</label>
-						<input type="text" name="langid">
-						<label for="title">言語名</label>
-                        <input type="text" name="langname">
-                        <input type="submit" id="subbutton" name="submit3">
-					</form>
+                        <label for="title">タイトル</label>
+                        <input type="text" name="title">
+
+                        <label for="title">概要</label>
+                        <input type="text" name="description"">
+
+						<input id="x" type="hidden" name="content">
+                        <trix-editor input="x"></trix-editor>
+                        
+                        <label for="postday">投稿日</label>
+                        <input type="date" id="pday">
+
+                        <label for="cat1">カテゴリー</label>
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select>
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select> 
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select> 
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select> 
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select> 
+                        <br>
+                        <input type="submit" id="subbutton" name="submit">
+					  </form>
+
 					  aa
                 </main>
                 

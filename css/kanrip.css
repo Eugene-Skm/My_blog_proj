@@ -1,3 +1,29 @@
 #main_wrapper {
-    grid-template-columns: 100%;
+  grid-template-columns: 100%;
+}
+
+/* ----------記事追加　CSS-------------- */
+trix-editor{
+  min-height: 400px;
+}
+form input{
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+
+}
+select{
+  width: 80px;
+}
+#pday{
+  width: 200px;
+}
+#subbutton{
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  margin: 15px;
+  font-size: 20px;
 }
