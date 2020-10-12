@@ -163,7 +163,6 @@ a:visited {
 main {
     display: inline-block;
     box-sizing: border-box;
-	padding: 5px;
 	min-height: 80vh;
 	margin-bottom: 10px;
 	background: #ffffff;
