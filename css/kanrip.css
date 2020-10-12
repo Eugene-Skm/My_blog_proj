@@ -1,5 +1,6 @@
 #main_wrapper {
   grid-template-columns: 100%;
+  text-align: center;
 }
 
 /* ----------記事追加　CSS-------------- */
@@ -15,14 +16,17 @@ form input{
 
 }
 select{
-  width: 80px;
+  width: 100px;
 }
 #pday{
   width: 200px;
 }
-.subbutton{
-  display: inline-block;
+#adtag input{
   width: 200px;
+}
+#adtag .subbutton{
+  display: inline-block;
+  width: 100px;
   height: auto;
   margin: 15px;
   margin-bottom:100px;
@@ -34,7 +38,4 @@ select{
   padding-left: 200px;
   padding-right: 200px;
 
-}
-#adtag input{
-  width: 300px;
 }
