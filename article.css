@@ -84,3 +84,6 @@ article{
 	line-height: 20px;
 	
 }
+#main_menu li:nth-child(2){
+	border-bottom: 3px solid #444444;
+}
