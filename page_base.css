@@ -60,7 +60,7 @@ header{
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: solid #777777 1px;
+    border-bottom: solid #555555 1px;
     
 }
 #main_menu li {
@@ -72,7 +72,7 @@ header{
     border-top: 0;
     list-style: none;
     text-align: center;
-
+    border-bottom: 2px solid #f8f8f8;
     /*background: linear-gradient(to bottom, #ffffff 0% ,#ffffff 85%,#bbbbbb 100%); */
 }
 #main_menu li:first-child{
