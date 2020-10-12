@@ -65,15 +65,15 @@ main{
 	margin-right: 5px;
 }
 .category::before{
-	content: url("svg/tag.ic.svg");
+	content: url("../svg/tag.ic.svg");
 	width: 14px;
 }
 .language::before{
-	content: url("svg/lang_ic.svg");
+	content: url("../svg/lang_ic.svg");
 	width: 14px;
 }
 .software::before{
-	content: url("svg/pc_ic.svg");
+	content: url("../svg/pc_ic.svg");
 	width: 14px;
 }
 #period::before{
