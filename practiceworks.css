@@ -261,14 +261,3 @@ main{
 #next{
 	transform: rotate(45deg);
 }
-
-.type_label{
-	display: inline-block;
-	font-size: 26px;
-	font-weight: bold;
-	margin-top: 20px;
-	margin-left: 50%;
-	padding: 0px 30px 0px 30px;
-	transform: translate(-50%);
-	border-bottom: solid #cccccc 2px;
-}
