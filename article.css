@@ -1,7 +1,7 @@
 
 main{
 	background: none;
-	padding: 0;
+	padding: 10px;
 	border: 0;
 	box-shadow: none;
 }
@@ -16,6 +16,7 @@ main{
 	background: #ffffff;
 	margin-top: 5px;
 	border-radius: 5px 5px 0px 0px;
+	padding: 15px;
 }
 #article_dates{
 	padding-left: 10px;
@@ -43,7 +44,7 @@ main{
 	width: 16px;
 }
 #article_title{
-	font-size: 26px;
+	font-size: 30px;
 	word-wrap: break-word;
 	padding: 5px 0px 5px 0px;
 }
@@ -51,12 +52,12 @@ main{
 	display: inline-flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 4px;
 	margin: 2px;
 	border: 1px solid #cccccc;
 	border-radius: 5px;
-	line-height: 14px;
+	line-height: 18px;
 	align-items: center;
 	color: #666666;
 	font-weight: 500;
@@ -80,8 +81,8 @@ article{
 	border-top: 1px solid #cccccc;
 	border-width: 80%;
 	word-wrap: break-word;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 32px;
 	
 }
 #main_menu li:nth-child(2){
