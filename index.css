@@ -41,6 +41,7 @@ label{
 	padding: 20px;
 	margin: 5px auto 5px auto;
 	width: 100%;
+	min-width: 400px;
 	justify-content: center;
 	align-items: center;
 	background: #ffffff;
@@ -112,7 +113,7 @@ label{
 }
 .article_title h1{
 	margin: initial;  /* 0 */
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: inherit;text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow:hidden;
