@@ -9,13 +9,6 @@ aside{
 }
 
 
-.links_label{
-    display: inline-block;
-    margin-left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    font-size: 24px;
-}
 .links_wrapper{
     display: inline-flex;
     flex-direction: row;
