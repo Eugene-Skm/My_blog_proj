@@ -178,13 +178,10 @@ article{
 	display: grid;
 	grid-template-columns: 35% 65%;
 	width: 100%;
-	line-height: 22px;
-	border: 1px solid #cccccc;
+	line-height: 30px;
 	border-bottom: none;
 }
-#work_details tr:last-child{
-	border-bottom: 1px solid #cccccc;
-}
+
 #work_details tr td{
 	padding: 5px;
 	word-break: break-all;
