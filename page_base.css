@@ -169,6 +169,18 @@ main {
 	background: #ffffff;
     margin: 4px;
 }
+label{
+	display: block;
+	width: 40%;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #cccccc;
+}
+
 aside {
 	position: sticky;
 	top:70px;
