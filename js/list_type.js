@@ -53,6 +53,8 @@ function change_check() {
 				for (var i = 0; i < article.length; i++) {
                     article[i].style.gridTemplateColumns = "100%";
 					article[i].style.height = "auto";
+					article[i].style.minheight = "250px";
+					article[i].style.minheight="500px";
 					articlethumb[i].style.height="100%";
 					articlethumb[i].style.display="none";
 					//articlethumb[i].style.width="100%";
