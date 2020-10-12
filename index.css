@@ -12,13 +12,12 @@ aside{
 	display: none;
 }
 main{
-	width: 1200px;
+	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
 /*-------------------------------*/
-
 
 .article{
 	position: relative;
