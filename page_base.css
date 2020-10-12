@@ -34,6 +34,8 @@ body {
 	background: #ffffff;
     margin: 0;
     background: #f8f8f8;
+    text-align: center;
+    padding: 25px;
 }
 header{
     display: inline-block;
@@ -169,7 +171,8 @@ main {
 	background: #ffffff;
     margin: 4px;
 }
-main>label{
+main>label,
+#top_image> label{
 	display: block;
 	width: 40%;
 	font-size: 20px;
@@ -179,6 +182,10 @@ main>label{
 	margin-top: 20px;
 	margin-bottom: 25px;
 	border-bottom: 1px solid #cccccc;
+}
+#top_image> label{
+    font-size: 24px;
+    font-weight: 550;
 }
 
 aside {
