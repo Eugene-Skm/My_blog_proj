@@ -39,8 +39,6 @@ main{
 }
 #up_day::before{
 	display: inline-block;
-
-	
 	content: url('../svg/update_ic.svg');
 	vertical-align: middle;
 	width: 16px;
