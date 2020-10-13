@@ -33,13 +33,13 @@ main{
 }
 #post_day::before{
 	display: inline-block;
-	content: url('svg/post_ic.svg');
+	content: url('../svg/post_ic.svg');
 	vertical-align: middle;
 	width: 16px;
 }
 #up_day::before{
 	display: inline-block;
-	content: url('svg/update_ic.svg');
+	content: url('../svg/update_ic.svg');
 	vertical-align: middle;
 	width: 16px;
 }
@@ -68,7 +68,7 @@ main{
 }
 .category::before{
 	display: inline-block;
-	content: url("svg/tag.ic.svg");
+	content: url("../svg/tag.ic.svg");
 	vertical-align: middle;
 	width: 14px;
 }
