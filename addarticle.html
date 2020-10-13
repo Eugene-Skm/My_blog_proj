@@ -49,55 +49,40 @@
                 </ul>
             </div>
             <div id="main_wrapper">
-                <main id="adtag">
-					<label for="">いろいろ追加ページ</label>
+                <main>
 					<form>
-						<label for="">記事ジャンル追加</label><br>
-						<label for="janruid">ジャンルid</label>
-						<input type="text" name="janruid">
-						<label for="janruname">ジャンル名</label>
-                        <input type="text" name="janruname">
-                        <input type="submit" class="subbutton"name="submit">
-					</form>
-					<form>
-						<label for="">ツール追加</label><br>
-						<label for="toolid">ツールid</label>
-						<input type="text" name="toolid">
-						<label for="toolname">ツール名</label>
-                        <input type="text" name="toolname">
-                        <input type="submit" class="subbutton" name="submit2">
-					</form>
-					<form>
-						<label for="">言語追加</label><br>
-						<label for="langid">言語id</label>
-						<input type="text" name="langid">
-						<label for="langname">言語名</label>
-                        <input type="text" name="langname">
-                        <input type="submit" class="subbutton" name="submit3">
-					</form>
-					
-					<label for="">いろいろ削除</label>
-					<form>
-						<label for="catdid">カテゴリー</label>
-                        <select name="catdid" id="">
+                        <label for="title">タイトル</label>
+                        <input type="text" name="title">
+
+                        <label for="title">概要</label>
+                        <input type="text" name="description"">
+
+						<input id="x" type="hidden" name="content">
+                        <trix-editor input="x"></trix-editor>
+                        
+                        <label for="postday">投稿日</label>
+                        <input type="date" id="pday">
+
+                        <label for="cat1">カテゴリー</label>
+                        <select name="cat1" id="">
                             <option value="null">--</option>
-						</select>
-						<input type="submit" class="subbutton" name="submit4">
-					</form>
-					<form>
-						<label for="tooldid">ツール</label>
-                        <select name="tooldid" id="">
+                        </select>
+                        <select name="cat1" id="">
                             <option value="null">--</option>
-						</select>
-						<input type="submit" class="subbutton" name="submit4">
-					</form>
-					<form>
-						<label for="langdid">言語</label>
-                        <select name="langdid" id="">
+                        </select> 
+                        <select name="cat1" id="">
                             <option value="null">--</option>
-						</select>
-						<input type="submit" class="subbutton" name="submit4">
-					</form>
+                        </select> 
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select> 
+                        <select name="cat1" id="">
+                            <option value="null">--</option>
+                        </select> 
+                        <br>
+                        <input type="submit" class="subbutton" name="submit">
+					  </form>
+
 					  aa
                 </main>
                 
