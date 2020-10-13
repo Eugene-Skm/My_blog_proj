@@ -12,7 +12,8 @@
         <!--===========================================================-->
         <link rel="stylesheet" href="css/page_base.css" charset="UTF-8" ">
         <link rel="stylesheet" href="css/work.css" charset="UTF-8" ">
-        <script src="js/img_changer.js" charset="utf-8"></script>
+        <script src="js/img_changer.js" charset="utf-8">
+        </script><script src="js/load.js"></script>
     </head>
     <body onload="img_change('img_1')">
         <div id="page_wrapper">
@@ -124,32 +125,7 @@
 					<footer></footer>
                 </main>
                 <aside>
-                    <div id="profile_part" class="asidelabel_parts">
-                        <label for="profile_part" class="aside_label"><img src="svg/prof_ic.svg">プロフィール</label>
-                        <div id="profile_img_p">
-                            <img src="img/profile_img.jpg" id="profile_img" alt="プロフィール画像">
-                        </div>
-                        <div id="profile_description" class="asidecontent_detail">
-                            大学3年です。 日々それなりに楽しんで生きてます。
-                        </div>
-                    </div>
-                    <div id="past_part" class="asidelabel_parts">
-                        <label for="pat_part" class="aside_label"><img src="svg/schejure_ic.svg">過去</label>
-                        <div id="years">
-                            <ul>
-                                <li><a href="">2020</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="cat_part" class="asidelabel_parts">
-                        <label for="cat_part" class="aside_label"><img src="svg/tag.ic.svg">カテゴリー</label>
-                        <div id="categories">
-                            <ul>
-                                <li><a href="">日記</a></li>
-                                <li><a href="">Web制作</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <iframe width="100%" src="sidebar.html" id="sbar" frameborder="0" scrolling="no" onload="sideadjuster()"></iframe>
                 </aside>
             </div>
             <!--======================================-->
